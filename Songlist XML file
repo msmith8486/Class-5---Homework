@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="songlist.xsl"?>
-<songlist>
-<song>
-<title>Silos</title>
-<singer>Judy Small</singer>
-<theme>Atomic Bomb</theme>
-<year>1971</year>
-</song>
-<song>
-	<title>Mothers, Daughters, Wives</title>
-	<singer>Judy Small</singer>
-	<theme>Gender Discrimination</theme>
-	<year>1970</year>
-</song>
-<song>
-	<title>Reason For It All</title>
-	<singer>Eric Bogle</singer>
-	<theme>Aging Issues</theme>
-	<year>1990</year>
-</song>
-<song>
-	<title>Green Fields of France</title>
-	<singer>Eric Bogle</singer>
-	<theme>Antiwar</theme>
-	<year>1994>
-</song>
-<song>
-	<title>The Band Played Waltzing Matilda</title>
-	<singer>Eric Bogle</singer>
-	<theme>Antiwar</theme>
-	<year>1980</year>
-</song>
-</songlist>
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html>
+<body>
+<h2>Song List</h2>
+<table>
+<tr>
+<th>Singer</th>
+<th>Song</th>
+<th>Theme</th>
+</tr>
 
-
+<xls:for-each select=”songlist/songlist [year=”1970”]>
+<xsl:for-each select="songlist/">
+<tr>
+<td><xsl:value-of select=singer"/></td>
+<td><xsl:value-of select="song"/></td>
+<td><xls:value-of select=”theme”</td>
+</tr>
+</xsl:for-each>
+</table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet> 
