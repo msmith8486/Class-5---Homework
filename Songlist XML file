@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="songlist.xsl"?>
+<songlist>
+<song>
+<title>Silos</title>
+<singer>Judy Small</singer>
+<theme>Atomic Bomb</theme>
+<year>1971</year>
+</song>
+<song>
+	<title>Mothers, Daughters, Wives</title>
+	<singer>Judy Small</singer>
+	<theme>Gender Discrimination</theme>
+	<year>1970</year>
+</song>
+<song>
+	<title>Reason For It All</title>
+	<singer>Eric Bogle</singer>
+	<theme>Aging Issues</theme>
+	<year>1990</year>
+</song>
+<song>
+	<title>Green Fields of France</title>
+	<singer>Eric Bogle</singer>
+	<theme>Antiwar</theme>
+	<year>1994>
+</song>
+<song>
+	<title>The Band Played Waltzing Matilda</title>
+	<singer>Eric Bogle</singer>
+	<theme>Antiwar</theme>
+	<year>1980</year>
+</song>
+</songlist>
+
+
