@@ -16,8 +16,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <td><xsl:value-of select="songlist/song/singer"/></td>
 <td><xsl:value-of select="songlist/song/theme"/></td>
 <td><xsl:value-of select="songlist/song/year"/></td>
-</td>
-<td>.</td>
 </tr>
 </table>
 </body>
